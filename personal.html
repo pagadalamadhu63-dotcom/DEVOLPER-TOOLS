@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background:yellow;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: #142850;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            animation: slide 1s;
+        }
+
+        nav {
+            background: #27496d;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: #00d4ff;
+            transform: scale(1.1);
+        }
+
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ccc;
+            animation: fade 1.5s;
+        }
+
+        h2 {
+            color: #142850;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .skills span {
+            background: #27496d;
+            color: white;
+            padding: 8px;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        a {
+            transition: 0.3s;
+        }
+
+        footer {
+            background: #142850;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @keyframes fade {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slide {
+            from { transform: translateY(-30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                margin: 6px;
+                font-size: 14px;
+            }
+
+            section {
+                margin: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Personal Porfile</h1>
+    <p>Welcome to My Website</p>
+</header>
+
+<nav>
+    <a href="#profile">Profile</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="profile" class="profile">
+    <h2>My Profile</h2>
+    <img src="C:\Users\pagad\OneDrive\WhatsApp Image 2026-10-24 at 1.08.08 PM.jpeg".placeholder.com/120"
+         alt="Profile photo">
+    <h3>pagadala Madhu</h3>
+    <p>I am a first-year Computer Science Engineering student.
+       I am interested in programming and web development.</p>
+</section>
+
+<section id="education">
+    <h2>Educational Qualifications</h2>
+    <ul>
+        <li>B.Tech - Computer Science Engineering</li>
+        <li>Intermediate - ssjc junior college</li>
+        <li>SSC - zphs m.m puram</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+        <span>Python</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>C Programming</span>
+    </div>
+</section>
+
+<section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Reading newspapers</li>
+        <li>Watching English news</li>
+        <li>Learning new technologies</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+        <li>Personal Portfolio Website</li>
+        <li>Simple Calculator using Python</li>
+        <li>Student Registration Form</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Achievements</h2>
+    <ul>
+        <li>Completed basic programming practice.</li>
+        <li>Learning web development skills.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Resume</h2>
+    <p>Click below to view or download your resume.</p>
+    <a href="C:\Users\pagad\Downloads\Pagadala_Madhu_Resume.pdf" download>Download Resume</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Information</h2>
+    <p>Email: pagadalamadhu63@gmail.com</p>
+    <p>Phone:6303383129</p>
+    <p>Location: Andhra Pradesh,Markapuram, India</p>
+</section>
+
+<footer>
+    <p>© 2026 My Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
